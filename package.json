@@ -1,0 +1,20 @@
+{
+  "name": "md-notebook",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Namir Garib",
+  "license": "MIT",
+  "description": "MD Notebook is a lightweight app for previewing and editing Markdown files.",
+  "devDependencies": {
+    "electron": "^32.1.0",
+    "electron-builder": "^25.0.5"
+  },
+  "dependencies": {
+    "marked": "^14.1.2"
+  }
+}
