@@ -9,7 +9,6 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            //preload: path.join(__dirname, "preload.js"),
             nodeIntegration: true,
             contextIsolation: false
         }
@@ -91,7 +90,6 @@ function createWindow() {
             isMac ? { role: 'close' } : { role: 'quit' }
         ]
     },
-    // { role: 'editMenu' }
     {
         label: 'Edit',
         submenu: [
@@ -176,7 +174,7 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
 app.on('window-all-closed', () => {
-    if (process.platform !== "darwin") {app.quit();}
+    if (!isMac) {app.quit();}
 });
 
 app.on('activate', () => {
