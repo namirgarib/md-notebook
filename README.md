@@ -7,7 +7,7 @@
 - Live Markdown preview using the `marked` package for JavaScript.
 - Lightweight and easy to use, with a focus on simplicity.
 - **Current Limitations**:
-  - No file-saving or file-opening capabilities (yet).
+  - ~~ No file-saving or file-opening capabilities (yet).~~ 
   - Syntax highlighting for code blocks is not yet supported.
   - No LaTeX or HTML parsing support—coming in future versions!
 
