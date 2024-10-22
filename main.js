@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require("path");
 
 let mainWindow;
+const isMac = process.platform === 'darwin'
 
 function createWindow() {
     mainWindow = new BrowserWindow({
@@ -16,7 +17,6 @@ function createWindow() {
 
     mainWindow.loadFile('index.html');
     
-    const isMac = process.platform === 'darwin'
 
     const template = [
     ...(isMac

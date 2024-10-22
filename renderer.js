@@ -10,8 +10,7 @@ textarea.addEventListener('input', (e) => {
 });
 
 ipcRenderer.on('request-file-save', (event, filePath) => {
-    textarea.innerText = filePath;
-    fs.writeFile(filePath, textarea.innerText, (err) => {
+    fs.writeFile(filePath, textarea.innerHTML, (err) => {
         if (err) {
           return;
         }
@@ -19,7 +18,7 @@ ipcRenderer.on('request-file-save', (event, filePath) => {
 });
 
 ipcRenderer.on('file-opened', (event, data) => {
-    textarea.innerHTML = data;
+    textarea.value = data;
     textarea.dispatchEvent(new Event('input'));
 });
   
