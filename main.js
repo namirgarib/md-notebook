@@ -44,7 +44,7 @@ function createWindow() {
                 dialog.showOpenDialog({
                     properties: ['openFile'],
                     filters: [
-                        { name: 'Markdown file', extensions: ['md'] },
+                        { name: 'Markdown', extensions: ['md', 'markdown'] },
                     ]
                 }).then(result => {
                     if (!result.canceled) {
@@ -68,7 +68,7 @@ function createWindow() {
                 dialog.showSaveDialog({
                     title: 'Save File',
                     filters: [
-                        { name: 'Markdown file', extensions: ['md'] },
+                        { name: 'Markdown', extensions: ['md', 'markdown'] },
                     ]
                 }).then(result => {
                     if (!result.canceled) {
@@ -120,7 +120,6 @@ function createWindow() {
             ])
         ]
     },
-    // { role: 'viewMenu' }
     {
         label: 'View',
         submenu: [
@@ -135,7 +134,6 @@ function createWindow() {
         { role: 'togglefullscreen' }
         ]
     },
-    // { role: 'windowMenu' }
     {
         label: 'Window',
         submenu: [
