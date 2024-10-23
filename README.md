@@ -1,8 +1,8 @@
-# 📝 MD Notebook v0.0.1
+# 📝 MD Notebook v0.0.2
 
 **MD Notebook** is a lightweight Markdown editor and previewer designed for simplicity and efficiency. This tool is perfect for users who want to quickly preview Markdown files without the need to open heavyweight IDEs like Xcode or VSCode. The goal of this project is to provide a minimalistic experience with just enough functionality to make Markdown editing intuitive and fast.
 
-## 🚀 Features (v0.0.1)
+## 🚀 Features (v0.0.2)
 
 - Live Markdown preview using the `marked` package for JavaScript.
 - Lightweight and easy to use, with a focus on simplicity.
