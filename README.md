@@ -48,6 +48,9 @@ Contributions are welcome! The goal is to keep the tool lightweight and efficien
   Basic Markdown parsing using the marked package.
   No syntax highlighting, file handling, or advanced parsing yet—under development.
 
+### v0.0.2 (2024/10/23)
+  File operations implemented
+
 ## 💡 Contributing
 Feel free to fork this project, open issues, or submit pull requests. Any contributions that help improve the functionality without bloating the application are more than welcome!
-**NOTE:** This app currently uses the Electron framework during development. Due to unexpected bloat, we are exploring migrating to a lighter framework, such as [Tauri](https://tauri.app/) or [Neutralinojs](https://neutralino.js.org/)
+**NOTE:** This app currently uses the Electron framework during development. Due to unexpected bloat, we are exploring migrating to a lighter cross-platform framework, such as [Tauri](https://tauri.app/) or [Neutralinojs](https://neutralino.js.org/)
