@@ -7,7 +7,6 @@
 - Live Markdown preview using the `marked` package for JavaScript.
 - Lightweight and easy to use, with a focus on simplicity.
 - **Current Limitations**:
-  - ~~ No file-saving or file-opening capabilities (yet).~~ 
   - Syntax highlighting for code blocks is not yet supported.
   - No LaTeX or HTML parsing support—coming in future versions!
 
@@ -16,7 +15,6 @@
 - **Syntax Highlighting**: Add language-specific syntax highlighting for code blocks.
 - **LaTeX Support**: Add LaTeX equation parsing for mathematical expressions.
 - **HTML Parsing**: Enable secure HTML parsing to enrich the Markdown preview.
-- **File Operations**: Add functionality to save and open Markdown files.
 
 Contributions are welcome! The goal is to keep the tool lightweight and efficient, so only essential features will be added.
 
@@ -52,3 +50,4 @@ Contributions are welcome! The goal is to keep the tool lightweight and efficien
 
 ## 💡 Contributing
 Feel free to fork this project, open issues, or submit pull requests. Any contributions that help improve the functionality without bloating the application are more than welcome!
+**NOTE:** This app currently uses the Electron framework during development. Due to unexpected bloat, we are exploring migrating to a lighter framework, such as [Tauri](https://tauri.app/) or [Neutralinojs](https://neutralino.js.org/)
